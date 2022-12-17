@@ -1,0 +1,48 @@
+.abc{
+  background-color: #B5EAEA;
+}
+
+
+
+
+.grid{
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+  align-items: center;
+}
+
+.grid div {
+  width: 90px;
+  height: 90px;
+  background-color: #E8F6EF;
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  border-style: solid;
+  border-width: 5px;
+
+}
+
+.score-container {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  height:120px;
+  width: 200px;
+  border-style: dashed;
+  border-width: 5px;
+  border-color: black;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: normal;
+  color: #FF0000;
+
+}
